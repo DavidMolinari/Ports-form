@@ -18,8 +18,9 @@ namespace Frm_Gestion_Navire
         private int _NbNaviresPassagers;
 
 
-        public Port()
+        public Port(string nomPort)
         {
+            this.NomPort = nomPort;
             this.TousLesNavirePort = new List<ToutNavire>();
         }
 
@@ -31,6 +32,7 @@ namespace Frm_Gestion_Navire
         public void AjouterNavire(NavireFret navireFret)
         {
             this.TousLesNavirePort.Add(navireFret);
+            NavireFret.NbNavireFret++;
         }
 
         /// <summary>
@@ -41,6 +43,7 @@ namespace Frm_Gestion_Navire
         public void AjouterNavire(NavirePassager navirePassager)
         {
             this.TousLesNavirePort.Add(navirePassager);
+            NavirePassager.NbNavirePassager++;
         }
 
         /// <summary>
@@ -49,7 +52,17 @@ namespace Frm_Gestion_Navire
         /// <param name="i"></param>
         public void SupprimerNavire(int i)
         {
-            this.TousLesNavirePort.RemoveAt(i);
+
+            if(this.TousLesNavirePort[i] is NavirePassager)
+            {
+                this.TousLesNavirePort.RemoveAt(i);
+                NavirePassager.NbNavirePassager--;
+
+            } else if (this.TousLesNavirePort[i] is NavireFret)
+            {
+                this.TousLesNavirePort.RemoveAt(i);
+                NavireFret.NbNavireFret--;
+            }
         }
 
         /// <summary>

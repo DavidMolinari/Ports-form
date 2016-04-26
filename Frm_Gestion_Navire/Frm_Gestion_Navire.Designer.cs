@@ -307,6 +307,7 @@
             this.BtnCreerPort.TabIndex = 14;
             this.BtnCreerPort.Text = "Créer Le Port";
             this.BtnCreerPort.UseVisualStyleBackColor = true;
+            this.BtnCreerPort.Click += new System.EventHandler(this.BtnCreerPort_Click);
             // 
             // label7
             // 
@@ -387,6 +388,7 @@
             this.BtnAffecterPort.TabIndex = 21;
             this.BtnAffecterPort.Text = "Affecter au Port";
             this.BtnAffecterPort.UseVisualStyleBackColor = true;
+            this.BtnAffecterPort.Click += new System.EventHandler(this.BtnAffecterPort_Click);
             // 
             // TxNumFret
             // 
