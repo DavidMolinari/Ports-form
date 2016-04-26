@@ -23,14 +23,14 @@ namespace Frm_Gestion_Navire
         /// <summary>
         /// Constructeur.
         /// </summary>
-        public ToutNavire(int noLloyds, string nomNavire, string pavillon, int longueur, int largeur, int tiranteau)
+        public ToutNavire(int noLloyds, string nomNavire, string pavillon, int longueur, int largeur, int tirantEau)
         {
             this.NoLloyds = noLloyds;
             this.NomNavire = nomNavire;
             this.Pavillon = pavillon;
             this.Longueur = longueur;
             this.Largeur = largeur;
-            this.TirantEau = tiranteau;
+            this.TirantEau = tirantEau;
         }
         //Getters & Setters.
         public int NoLloyds
