@@ -12,9 +12,12 @@ namespace Frm_Gestion_Navire
 {
     public partial class Frm_Gestion_Navire : Form
     {
+        Port unPort;
+        List<ToutNavire> ToutNavires = new List<ToutNavire>();
+
+
         public Frm_Gestion_Navire()
         {
-            List<ToutNavire> ToutNavires = new List<ToutNavire>();
             InitializeComponent();
         }
 
@@ -34,13 +37,29 @@ namespace Frm_Gestion_Navire
 
         private void BtnCreerPort_Click(object sender, EventArgs e)
         {
-            Port port = new Port(this.TxNomPort.Text);
+            unPort = new Port(this.TxNomPort.Text);
+        }
 
+
+        private void BtnCreerNavirePassager_Click(object sender, EventArgs e)
+        {
+            int numlloyd = Convert.ToInt32(this.TxTirant.Text);
+            string nomNavire = this.TxNomNavire.Text;
+            string pavillon = this.TxPavillon.Text;
+            int longueur = Convert.ToInt32(this.TxLongueur.Text);
+            int largueur = Convert.ToInt32(this.TxLargeur.Text);
+            int tirantEau = Convert.ToInt32(this.TxTirant.Text);
+            int nbMaxPassager = Convert.ToInt32(this.TxNbMaxiPassager.Text);
+            int nbChambres = Convert.ToInt32(this.TxNbChambre.Text);
+            int nbCabines = Convert.ToInt32(this.TxNbCabine.Text);
+
+
+            NavirePassager unNavireFret = new NavirePassager(numlloyd, nomNavire, pavillon, longueur, largueur, tirantEau, nbMaxPassager, nbChambres, nbCabines);
         }
 
         private void BtnAffecterPort_Click(object sender, EventArgs e)
         {
-            List<ToutNavire> ToutNavires = new List<ToutNavire>();
+            
         }
     }
 }

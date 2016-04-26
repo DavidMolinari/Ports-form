@@ -92,7 +92,7 @@
             // TxNumLLOYD
             // 
             this.TxNumLLOYD.Location = new System.Drawing.Point(152, 27);
-            this.TxNumLLOYD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNumLLOYD.Margin = new System.Windows.Forms.Padding(4);
             this.TxNumLLOYD.Name = "TxNumLLOYD";
             this.TxNumLLOYD.Size = new System.Drawing.Size(160, 22);
             this.TxNumLLOYD.TabIndex = 0;
@@ -100,7 +100,7 @@
             // TxNomNavire
             // 
             this.TxNomNavire.Location = new System.Drawing.Point(152, 59);
-            this.TxNomNavire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNomNavire.Margin = new System.Windows.Forms.Padding(4);
             this.TxNomNavire.Name = "TxNomNavire";
             this.TxNomNavire.Size = new System.Drawing.Size(160, 22);
             this.TxNomNavire.TabIndex = 1;
@@ -108,7 +108,7 @@
             // TxPavillon
             // 
             this.TxPavillon.Location = new System.Drawing.Point(152, 91);
-            this.TxPavillon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxPavillon.Margin = new System.Windows.Forms.Padding(4);
             this.TxPavillon.Name = "TxPavillon";
             this.TxPavillon.Size = new System.Drawing.Size(160, 22);
             this.TxPavillon.TabIndex = 2;
@@ -116,7 +116,7 @@
             // TxLongueur
             // 
             this.TxLongueur.Location = new System.Drawing.Point(152, 123);
-            this.TxLongueur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxLongueur.Margin = new System.Windows.Forms.Padding(4);
             this.TxLongueur.Name = "TxLongueur";
             this.TxLongueur.Size = new System.Drawing.Size(160, 22);
             this.TxLongueur.TabIndex = 3;
@@ -124,7 +124,7 @@
             // TxLargeur
             // 
             this.TxLargeur.Location = new System.Drawing.Point(152, 155);
-            this.TxLargeur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxLargeur.Margin = new System.Windows.Forms.Padding(4);
             this.TxLargeur.Name = "TxLargeur";
             this.TxLargeur.Size = new System.Drawing.Size(160, 22);
             this.TxLargeur.TabIndex = 4;
@@ -132,7 +132,7 @@
             // TxTirant
             // 
             this.TxTirant.Location = new System.Drawing.Point(152, 187);
-            this.TxTirant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxTirant.Margin = new System.Windows.Forms.Padding(4);
             this.TxTirant.Name = "TxTirant";
             this.TxTirant.Size = new System.Drawing.Size(160, 22);
             this.TxTirant.TabIndex = 5;
@@ -214,9 +214,9 @@
             this.GrbPort.Controls.Add(this.label7);
             this.GrbPort.Controls.Add(this.TxNomPort);
             this.GrbPort.Location = new System.Drawing.Point(443, 27);
-            this.GrbPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrbPort.Margin = new System.Windows.Forms.Padding(4);
             this.GrbPort.Name = "GrbPort";
-            this.GrbPort.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrbPort.Padding = new System.Windows.Forms.Padding(4);
             this.GrbPort.Size = new System.Drawing.Size(576, 185);
             this.GrbPort.TabIndex = 12;
             this.GrbPort.TabStop = false;
@@ -225,7 +225,7 @@
             // TxNbPassagerStatic
             // 
             this.TxNbPassagerStatic.Location = new System.Drawing.Point(451, 151);
-            this.TxNbPassagerStatic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNbPassagerStatic.Margin = new System.Windows.Forms.Padding(4);
             this.TxNbPassagerStatic.Name = "TxNbPassagerStatic";
             this.TxNbPassagerStatic.Size = new System.Drawing.Size(75, 22);
             this.TxNbPassagerStatic.TabIndex = 22;
@@ -233,7 +233,7 @@
             // TxNbFretCreer
             // 
             this.TxNbFretCreer.Location = new System.Drawing.Point(451, 121);
-            this.TxNbFretCreer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNbFretCreer.Margin = new System.Windows.Forms.Padding(4);
             this.TxNbFretCreer.Name = "TxNbFretCreer";
             this.TxNbFretCreer.Size = new System.Drawing.Size(75, 22);
             this.TxNbFretCreer.TabIndex = 21;
@@ -241,7 +241,7 @@
             // TxNbPassagerPresent
             // 
             this.TxNbPassagerPresent.Location = new System.Drawing.Point(208, 153);
-            this.TxNbPassagerPresent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNbPassagerPresent.Margin = new System.Windows.Forms.Padding(4);
             this.TxNbPassagerPresent.Name = "TxNbPassagerPresent";
             this.TxNbPassagerPresent.Size = new System.Drawing.Size(75, 22);
             this.TxNbPassagerPresent.TabIndex = 20;
@@ -249,7 +249,7 @@
             // TxNbFretPresent
             // 
             this.TxNbFretPresent.Location = new System.Drawing.Point(208, 123);
-            this.TxNbFretPresent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNbFretPresent.Margin = new System.Windows.Forms.Padding(4);
             this.TxNbFretPresent.Name = "TxNbFretPresent";
             this.TxNbFretPresent.Size = new System.Drawing.Size(75, 22);
             this.TxNbFretPresent.TabIndex = 19;
@@ -301,7 +301,7 @@
             // BtnCreerPort
             // 
             this.BtnCreerPort.Location = new System.Drawing.Point(97, 73);
-            this.BtnCreerPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCreerPort.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCreerPort.Name = "BtnCreerPort";
             this.BtnCreerPort.Size = new System.Drawing.Size(151, 48);
             this.BtnCreerPort.TabIndex = 14;
@@ -323,7 +323,7 @@
             // TxNomPort
             // 
             this.TxNomPort.Location = new System.Drawing.Point(161, 32);
-            this.TxNomPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNomPort.Margin = new System.Windows.Forms.Padding(4);
             this.TxNomPort.Name = "TxNomPort";
             this.TxNomPort.Size = new System.Drawing.Size(160, 22);
             this.TxNomPort.TabIndex = 13;
@@ -342,9 +342,9 @@
             this.GrbNavireFret.Controls.Add(this.label16);
             this.GrbNavireFret.Controls.Add(this.TxLibelleFret);
             this.GrbNavireFret.Location = new System.Drawing.Point(33, 265);
-            this.GrbNavireFret.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrbNavireFret.Margin = new System.Windows.Forms.Padding(4);
             this.GrbNavireFret.Name = "GrbNavireFret";
-            this.GrbNavireFret.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrbNavireFret.Padding = new System.Windows.Forms.Padding(4);
             this.GrbNavireFret.Size = new System.Drawing.Size(472, 293);
             this.GrbNavireFret.TabIndex = 23;
             this.GrbNavireFret.TabStop = false;
@@ -353,7 +353,7 @@
             // BtnRetirerDuPort
             // 
             this.BtnRetirerDuPort.Location = new System.Drawing.Point(256, 240);
-            this.BtnRetirerDuPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnRetirerDuPort.Margin = new System.Windows.Forms.Padding(4);
             this.BtnRetirerDuPort.Name = "BtnRetirerDuPort";
             this.BtnRetirerDuPort.Size = new System.Drawing.Size(181, 25);
             this.BtnRetirerDuPort.TabIndex = 24;
@@ -363,7 +363,7 @@
             // TxIndiceSupp
             // 
             this.TxIndiceSupp.Location = new System.Drawing.Point(173, 240);
-            this.TxIndiceSupp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxIndiceSupp.Margin = new System.Windows.Forms.Padding(4);
             this.TxIndiceSupp.Name = "TxIndiceSupp";
             this.TxIndiceSupp.Size = new System.Drawing.Size(48, 22);
             this.TxIndiceSupp.TabIndex = 23;
@@ -382,7 +382,7 @@
             // BtnAffecterPort
             // 
             this.BtnAffecterPort.Location = new System.Drawing.Point(216, 150);
-            this.BtnAffecterPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAffecterPort.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAffecterPort.Name = "BtnAffecterPort";
             this.BtnAffecterPort.Size = new System.Drawing.Size(175, 48);
             this.BtnAffecterPort.TabIndex = 21;
@@ -393,7 +393,7 @@
             // TxNumFret
             // 
             this.TxNumFret.Location = new System.Drawing.Point(208, 107);
-            this.TxNumFret.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNumFret.Margin = new System.Windows.Forms.Padding(4);
             this.TxNumFret.Name = "TxNumFret";
             this.TxNumFret.Size = new System.Drawing.Size(160, 22);
             this.TxNumFret.TabIndex = 20;
@@ -401,7 +401,7 @@
             // TxQuantiteFret
             // 
             this.TxQuantiteFret.Location = new System.Drawing.Point(208, 73);
-            this.TxQuantiteFret.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxQuantiteFret.Margin = new System.Windows.Forms.Padding(4);
             this.TxQuantiteFret.Name = "TxQuantiteFret";
             this.TxQuantiteFret.Size = new System.Drawing.Size(160, 22);
             this.TxQuantiteFret.TabIndex = 19;
@@ -431,7 +431,7 @@
             // BtnCreerNavireFret
             // 
             this.BtnCreerNavireFret.Location = new System.Drawing.Point(33, 150);
-            this.BtnCreerNavireFret.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCreerNavireFret.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCreerNavireFret.Name = "BtnCreerNavireFret";
             this.BtnCreerNavireFret.Size = new System.Drawing.Size(175, 48);
             this.BtnCreerNavireFret.TabIndex = 14;
@@ -453,7 +453,7 @@
             // TxLibelleFret
             // 
             this.TxLibelleFret.Location = new System.Drawing.Point(208, 37);
-            this.TxLibelleFret.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxLibelleFret.Margin = new System.Windows.Forms.Padding(4);
             this.TxLibelleFret.Name = "TxLibelleFret";
             this.TxLibelleFret.Size = new System.Drawing.Size(160, 22);
             this.TxLibelleFret.TabIndex = 13;
@@ -472,9 +472,9 @@
             this.GrbNavirePassagers.Controls.Add(this.label19);
             this.GrbNavirePassagers.Controls.Add(this.TxNbMaxiPassager);
             this.GrbNavirePassagers.Location = new System.Drawing.Point(575, 265);
-            this.GrbNavirePassagers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrbNavirePassagers.Margin = new System.Windows.Forms.Padding(4);
             this.GrbNavirePassagers.Name = "GrbNavirePassagers";
-            this.GrbNavirePassagers.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrbNavirePassagers.Padding = new System.Windows.Forms.Padding(4);
             this.GrbNavirePassagers.Size = new System.Drawing.Size(472, 293);
             this.GrbNavirePassagers.TabIndex = 25;
             this.GrbNavirePassagers.TabStop = false;
@@ -483,7 +483,7 @@
             // BtnRetirerDuPort2
             // 
             this.BtnRetirerDuPort2.Location = new System.Drawing.Point(256, 240);
-            this.BtnRetirerDuPort2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnRetirerDuPort2.Margin = new System.Windows.Forms.Padding(4);
             this.BtnRetirerDuPort2.Name = "BtnRetirerDuPort2";
             this.BtnRetirerDuPort2.Size = new System.Drawing.Size(181, 25);
             this.BtnRetirerDuPort2.TabIndex = 24;
@@ -493,7 +493,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(173, 240);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(48, 22);
             this.textBox1.TabIndex = 23;
@@ -512,7 +512,7 @@
             // BtnAffecterAuPort2
             // 
             this.BtnAffecterAuPort2.Location = new System.Drawing.Point(216, 150);
-            this.BtnAffecterAuPort2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAffecterAuPort2.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAffecterAuPort2.Name = "BtnAffecterAuPort2";
             this.BtnAffecterAuPort2.Size = new System.Drawing.Size(175, 48);
             this.BtnAffecterAuPort2.TabIndex = 21;
@@ -522,7 +522,7 @@
             // TxNbCabine
             // 
             this.TxNbCabine.Location = new System.Drawing.Point(208, 107);
-            this.TxNbCabine.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNbCabine.Margin = new System.Windows.Forms.Padding(4);
             this.TxNbCabine.Name = "TxNbCabine";
             this.TxNbCabine.Size = new System.Drawing.Size(160, 22);
             this.TxNbCabine.TabIndex = 20;
@@ -530,7 +530,7 @@
             // TxNbChambre
             // 
             this.TxNbChambre.Location = new System.Drawing.Point(208, 73);
-            this.TxNbChambre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNbChambre.Margin = new System.Windows.Forms.Padding(4);
             this.TxNbChambre.Name = "TxNbChambre";
             this.TxNbChambre.Size = new System.Drawing.Size(160, 22);
             this.TxNbChambre.TabIndex = 19;
@@ -560,12 +560,13 @@
             // BtnCreerNavirePassager
             // 
             this.BtnCreerNavirePassager.Location = new System.Drawing.Point(33, 150);
-            this.BtnCreerNavirePassager.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCreerNavirePassager.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCreerNavirePassager.Name = "BtnCreerNavirePassager";
             this.BtnCreerNavirePassager.Size = new System.Drawing.Size(175, 48);
             this.BtnCreerNavirePassager.TabIndex = 14;
             this.BtnCreerNavirePassager.Text = "Créer Navire Passager";
             this.BtnCreerNavirePassager.UseVisualStyleBackColor = true;
+            this.BtnCreerNavirePassager.Click += new System.EventHandler(this.BtnCreerNavirePassager_Click);
             // 
             // label19
             // 
@@ -581,7 +582,7 @@
             // TxNbMaxiPassager
             // 
             this.TxNbMaxiPassager.Location = new System.Drawing.Point(208, 37);
-            this.TxNbMaxiPassager.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxNbMaxiPassager.Margin = new System.Windows.Forms.Padding(4);
             this.TxNbMaxiPassager.Name = "TxNbMaxiPassager";
             this.TxNbMaxiPassager.Size = new System.Drawing.Size(160, 22);
             this.TxNbMaxiPassager.TabIndex = 13;
@@ -589,7 +590,7 @@
             // BtnAfficherTousNavire
             // 
             this.BtnAfficherTousNavire.Location = new System.Drawing.Point(103, 581);
-            this.BtnAfficherTousNavire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAfficherTousNavire.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAfficherTousNavire.Name = "BtnAfficherTousNavire";
             this.BtnAfficherTousNavire.Size = new System.Drawing.Size(341, 70);
             this.BtnAfficherTousNavire.TabIndex = 25;
@@ -600,7 +601,7 @@
             // 
             this.CbAfficherTousNavire.FormattingEnabled = true;
             this.CbAfficherTousNavire.Location = new System.Drawing.Point(476, 604);
-            this.CbAfficherTousNavire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CbAfficherTousNavire.Margin = new System.Windows.Forms.Padding(4);
             this.CbAfficherTousNavire.Name = "CbAfficherTousNavire";
             this.CbAfficherTousNavire.Size = new System.Drawing.Size(569, 24);
             this.CbAfficherTousNavire.TabIndex = 26;
@@ -619,7 +620,7 @@
             // NupIndiceAfficher
             // 
             this.NupIndiceAfficher.Location = new System.Drawing.Point(241, 682);
-            this.NupIndiceAfficher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NupIndiceAfficher.Margin = new System.Windows.Forms.Padding(4);
             this.NupIndiceAfficher.Name = "NupIndiceAfficher";
             this.NupIndiceAfficher.Size = new System.Drawing.Size(160, 22);
             this.NupIndiceAfficher.TabIndex = 27;
@@ -627,7 +628,7 @@
             // BtnAfficherUnNavire
             // 
             this.BtnAfficherUnNavire.Location = new System.Drawing.Point(455, 656);
-            this.BtnAfficherUnNavire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAfficherUnNavire.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAfficherUnNavire.Name = "BtnAfficherUnNavire";
             this.BtnAfficherUnNavire.Size = new System.Drawing.Size(215, 69);
             this.BtnAfficherUnNavire.TabIndex = 28;
@@ -638,7 +639,7 @@
             // 
             this.CbAfficherUnNavire.FormattingEnabled = true;
             this.CbAfficherUnNavire.Location = new System.Drawing.Point(695, 682);
-            this.CbAfficherUnNavire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CbAfficherUnNavire.Margin = new System.Windows.Forms.Padding(4);
             this.CbAfficherUnNavire.Name = "CbAfficherUnNavire";
             this.CbAfficherUnNavire.Size = new System.Drawing.Size(569, 24);
             this.CbAfficherUnNavire.TabIndex = 29;
@@ -646,7 +647,7 @@
             // BtnQuitter
             // 
             this.BtnQuitter.Location = new System.Drawing.Point(455, 773);
-            this.BtnQuitter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnQuitter.Margin = new System.Windows.Forms.Padding(4);
             this.BtnQuitter.Name = "BtnQuitter";
             this.BtnQuitter.Size = new System.Drawing.Size(215, 49);
             this.BtnQuitter.TabIndex = 30;
@@ -657,6 +658,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1432, 837);
             this.Controls.Add(this.BtnQuitter);
             this.Controls.Add(this.CbAfficherUnNavire);
@@ -680,7 +682,7 @@
             this.Controls.Add(this.TxPavillon);
             this.Controls.Add(this.TxNomNavire);
             this.Controls.Add(this.TxNumLLOYD);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Gestion_Navire";
             this.Text = "Frm_Gestion_Navire";
             this.GrbPort.ResumeLayout(false);
