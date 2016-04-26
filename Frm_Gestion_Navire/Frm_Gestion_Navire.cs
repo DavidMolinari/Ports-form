@@ -16,5 +16,10 @@ namespace Frm_Gestion_Navire
         {
             InitializeComponent();
         }
+
+        private void BtnCreerNavireFret_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

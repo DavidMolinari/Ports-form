@@ -6,3 +6,4 @@ C:\Users\davv\Documents\GitHub\Frm_Gestion_Navire\Frm_Gestion_Navire\obj\Debug\F
 C:\Users\davv\Documents\GitHub\Frm_Gestion_Navire\Frm_Gestion_Navire\obj\Debug\Frm_Gestion_Navire.csproj.GenerateResource.Cache
 C:\Users\davv\Documents\GitHub\Frm_Gestion_Navire\Frm_Gestion_Navire\obj\Debug\Frm_Gestion_Navire.exe
 C:\Users\davv\Documents\GitHub\Frm_Gestion_Navire\Frm_Gestion_Navire\obj\Debug\Frm_Gestion_Navire.pdb
+C:\Users\davv\Documents\GitHub\Frm_Gestion_Navire\Frm_Gestion_Navire\obj\Debug\Frm_Gestion_Navire.Frm_Gestion_Navire.resources
