@@ -23,16 +23,22 @@ namespace Frm_Gestion_Navire
 
         private void BtnCreerNavireFret_Click(object sender, EventArgs e)
         {
-            int numlloyd = Convert.ToInt32(this.TxTirant.Text);
-            string nomNavire = this.TxNomNavire.Text;
-            string pavillon = this.TxPavillon.Text;
-            int longueur = Convert.ToInt32(this.TxLongueur.Text);
-            int largueur = Convert.ToInt32(this.TxLargeur.Text);
-            int tirantEau = Convert.ToInt32(this.TxTirant.Text);
-            string libelleFret = this.TxLibelleFret.Text;
-            int qteFret = Convert.ToInt32(this.TxQuantiteFret.Text);
-            int nbFret = Convert.ToInt32(this.TxNumFret.Text);
-            NavireFret unNavireFret = new NavireFret(numlloyd, nomNavire, pavillon, longueur, largueur, tirantEau, libelleFret, qteFret, nbFret);
+            var myStrings = new List<string> {
+                Convert.ToString(this.TxTirant.Text), this.TxNomNavire.Text, this.TxPavillon.Text,
+                Convert.ToString(this.TxLongueur.Text), Convert.ToString(this.TxLargeur.Text),
+                Convert.ToString(this.TxTirant.Text), this.TxLibelleFret.Text, Convert.ToString(this.TxQuantiteFret.Text), Convert.ToString(this.TxNumFret.Text)};
+            if (!(myStrings.All(s => s == null)))
+            {
+                NavireFret unNavireFret = new NavireFret(
+                    Convert.ToInt32(this.TxNumLLOYD.Text), this.TxNomNavire.Text, this.TxPavillon.Text, Convert.ToInt16(this.TxLongueur.Text),
+                    Convert.ToInt32(this.TxLargeur.Text), Convert.ToInt32(this.TxTirant.Text), this.TxLibelleFret.Text, Convert.ToInt32(this.TxQuantiteFret.Text), Convert.ToInt32(this.TxNumFret.Text));
+                MessageBox.Show("Navire créé");
+            }
+            else MessageBox.Show("Veuillez remplir tous les champs !");
+
+            
+           
+            
         }
 
         private void BtnCreerPort_Click(object sender, EventArgs e)
