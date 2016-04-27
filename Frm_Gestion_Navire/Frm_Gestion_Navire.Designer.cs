@@ -518,6 +518,7 @@
             this.BtnAffecterAuPort2.TabIndex = 21;
             this.BtnAffecterAuPort2.Text = "Affecter au Port";
             this.BtnAffecterAuPort2.UseVisualStyleBackColor = true;
+            this.BtnAffecterAuPort2.Click += new System.EventHandler(this.BtnAffecterAuPort2_Click);
             // 
             // TxNbCabine
             // 
