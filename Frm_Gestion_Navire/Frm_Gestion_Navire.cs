@@ -48,7 +48,6 @@ namespace Frm_Gestion_Navire
             MessageBox.Show ("Le port : " + this.TxNomPort.Text + " a été créé !");
         }
 
-
         private void BtnCreerNavirePassager_Click(object sender, EventArgs e)
         {
             var myStrings = new List<string> {
